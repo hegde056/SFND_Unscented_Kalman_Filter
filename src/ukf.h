@@ -95,9 +95,15 @@ class UKF {
 
   // Augmented state dimension
   int n_aug_;
-
+  
   // Sigma point spreading parameter
   double lambda_;
+
+  //NIS radar
+  double NIS_radar;
+
+  //NIS lidar
+  double NIS_lidar;
 };
 
 #endif  // UKF_H
